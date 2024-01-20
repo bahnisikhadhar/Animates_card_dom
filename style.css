@@ -18,10 +18,10 @@
       rgb(0, 0, 0) 98.6%
     );
   }
-  /* .details{
+  .content{
     background: url("./flowers.webp");
     border-radius: 10px;
-  } */
+  }
   .card {
     position: relative;
     width: 350px;
@@ -30,7 +30,7 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.38);
     transition: 0.5s;
-    /* z-index: 1000; */
+    
   }
   
   .card:hover {
@@ -50,6 +50,7 @@
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
     overflow: hidden;
     transition: 0.5s;
+    z-index: 1000;
   }
   
   .card:hover .imgBx {
@@ -58,9 +59,9 @@
   }
   
   .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     object-fit: cover;
